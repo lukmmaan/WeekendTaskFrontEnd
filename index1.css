@@ -1,0 +1,117 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.bg-image{
+    background-image: url("578802-nickelodeon.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbarAtas{
+    color: purple;
+}
+.navbarAtas:hover{
+color: wheat;
+cursor: pointer;
+background-color: blue;
+border-radius: 8px;
+transition-duration: 1s;
+}
+.bg-pink{
+    background-color: pink;
+    opacity: 0.85;
+    border-radius: 16px;
+}
+.bg-yellow{
+    background-color:yellow;
+    opacity: 0.95;
+    border-radius: 16px;
+}
+.bg-green{
+    background-color: green;
+    opacity: 0.95;
+    border-radius: 16px;
+}
+.tengah
+{
+    color: wheat;
+    /* border: 1px solid red; */
+    /* background-color: pink; */
+    opacity: 0.87;
+    top: 40%;
+    left: 35%;  
+    position: absolute; 
+    text-align: center; 
+}
+.bg-brown{
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 150px;
+}
+.Opacity {
+    opacity: 0;
+    transition: 2s;
+}
+.text-judul{
+    color: chocolate;
+    opacity: 2;
+    font-family: cursive
+}
+.container1{
+    /* display: flex; */
+    height: 350px;
+    flex-direction: row; /* column :numpuk kebawah, row: kesamping */
+    /* margin-top: 50px; */
+    /* border: 2px solid red; */
+}
+.gambarNick{
+    border-radius: 20px;
+}
+.gambarNick:hover{
+    border: 20px orangered solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.redTeks{
+color: red;
+font-family: serif
+}
+.badan{
+    background-image: url("wp2162247.png");
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.92; */
+    padding: 15px;
+    border-radius: 16px;
+    font-family: serif;
+    color: black;
+}
+.pad{
+    padding: 70px;
+}
+.margLeft{
+    margin-left: 20px;
+}
+.margRight{
+    margin-right: 20px;
+}
+.margTop{
+    margin-top: 20px;
+}
+.diTengah{
+    margin-left: 35px;
+    color: pink;
+    font-family: monospace
+}
+.diTengah:hover{
+    color: brown;
+    cursor: pointer;
+}
+.gambarYoutube:hover{
+    width: 100px;
+    height: 100px;
+}
+.bayangan{
+    -webkit-box-shadow: 47px 55px 43px -14px rgba(133,125,133,1);
+    -moz-box-shadow: 47px 55px 43px -14px rgba(133,125,133,1);
+    box-shadow: 47px 55px 43px -14px rgba(133,125,133,1);
+}
